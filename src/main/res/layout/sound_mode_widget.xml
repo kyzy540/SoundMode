@@ -4,6 +4,11 @@
     android:background="@android:color/transparent"
     android:padding="@dimen/widget_margin">
 
+    <!--
+         android:scaleType="fitCenter" -> source image auto fit imageButton size
+         android:layout_alignParentTop="true" -> do not align to center since TextView
+         android:layout_marginTop="13dp" -> marginTop otherwise the button would be invisible
+     -->
     <ImageButton
         android:layout_width="55dp"
         android:layout_height="55dp"
